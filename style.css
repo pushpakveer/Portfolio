@@ -1,0 +1,294 @@
+
+
+html,body{
+    margin: 0;
+    padding: 0;}
+
+header{
+   margin-top: 20px;}
+
+
+
+.navbar li{
+   
+    display: inline;
+    float:inline-start;
+    margin-left: 10px;
+    font-family: sans-serif;
+
+}
+
+
+.navbar li:hover{
+    text-decoration:underline;
+    text-decoration-color: black;
+    font-weight: bold;}
+.navbar a{
+    
+   color: rgb(36, 35, 35);
+    font-family:  "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration-line:none ;
+    font-size: 14px;
+}
+.Pic-info{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 90vw;
+    height: 86vh;
+    margin-left: 80px;
+    background-color: rgb(250, 246, 247);
+   
+  
+    
+}
+.big-text{
+    font-size:45px;
+    font-weight: bold;
+    color: rgb(29, 3, 53);
+    
+}
+.small-text{
+    color: rgb(223, 25, 25);
+}
+
+.pic-intro{
+    align-items: center;
+}
+.pic{
+    
+     
+      top: 20px;
+      border-top:1px solid black;
+      border-radius:10px 10px ;
+      z-index: 2;
+     
+}
+#intro-content{
+    font-weight: bold;
+    color:black;
+    font-size: 50px;
+}
+.skills{
+    background-color: rgb(53, 49, 50);
+    margin-top: 40px;
+    margin-left: 80px;
+    height:40vh ;
+    width: 90vw;
+    padding: 10px;
+   border-radius: 20px 0 20px;
+}
+
+.skills h1{
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+}
+.skills-inner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    color: white;
+   
+    background-color: rgb(53, 49, 50);
+}
+.skills-inner li{
+    display:inline;
+    color: white;
+}
+.projects{
+    width: 90vw;
+    height: 50vh;
+  
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 75px;
+
+}
+.project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.projects h1{
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.project-box{
+   
+    padding: 40px;
+    margin: 20px;
+    background-color: rgb(255, 248, 248);
+    border-color: black;
+    border-style: groove;
+    
+    
+}
+.logo{
+    float: right;
+}
+
+.project-box button{
+    width: 300px;
+}
+
+
+
+
+
+  
+
+  .Intro-inner-div{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .Pic-info-inner {
+    
+    width: 40vw;
+    height: 40vh; 
+    align-items: center; 
+   
+  }
+ .inner-about{ background-color: rgb(250, 246, 247);
+    margin-left: 85px;
+    width: 90vw;
+    height: 30vh;
+    margin-top: 40px;
+    padding:10px ;
+}
+
+  .inner-inner-about{
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+  .inner-about h1{
+      
+      text-align: center;
+      color: rgb(5, 5, 90);
+      text-decoration: underline;
+  }
+
+  .inner-about p{
+    font-family: 'Estonia', cursive;
+    font-size: large;
+    color: rgb(165, 42, 42);
+  }
+
+  
+
+  .edu-det{
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      margin-top: 60px;
+      font-family:  "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      
+    }
+
+  .edu-10th{
+      padding: 20px;
+      margin-right: 120px;
+
+  }
+
+  .edu-12th{
+    padding: 20px;
+    margin-left: 120px;
+
+}
+.BE{
+    text-align: center;
+}
+.education{
+   padding: 10px;
+   margin-top: 40px;
+   margin-left: 280px;
+   width: 60vw;
+   height: 60vh;
+    color: white;
+    background-color: rgb(53, 49, 50);
+    border-radius: 30px 30px 30px 0px;
+}
+
+  .education h1{
+      text-align: center;
+      color: bisque;
+      text-decoration: underline;
+
+
+
+  }
+  .achievements{
+      margin-top: 40px;
+      background-color: rgb(250, 246, 247); 
+      padding: 10px;
+  }
+  
+  .achievements h1{
+      text-align: center;
+      color: rgb(240, 28, 28);
+      text-decoration: underline;
+      font-size: 30px;
+  }
+
+.achievements-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Estonia', cursive;
+    
+}
+footer{
+   text-align: center;
+   background-color: black;
+   color: white;
+   padding: 1px;
+   margin-top: 10px;
+}
+
+
+table, th, td {
+    
+    border: 3px solid rgb(22, 20, 20);
+    border-collapse: collapse;
+    color: rgb(44, 8, 68);
+    text-align: center;
+   
+  }
+  th, td {
+    background-color: #e6ecec;
+  }
+
+
+
+@media (max-width:768px){
+    .project{
+        display: block;
+        
+       
+      }
+      
+
+      .skills{
+          margin-left: 80px;
+          width:85vw;
+          margin-top: 160px;
+      }
+    
+}
+
+
+
+
+
